@@ -8,5 +8,5 @@ mkdir ~/.kaggle
 cp kaggle.json ~/.kaggle/
 chmod 600 ~/.kaggle/kaggle.json
 kaggle datasets list
-kaggle competitions download -c 'name-of-competition'
+kaggle datasets download 'name-of-competition'
 ```
